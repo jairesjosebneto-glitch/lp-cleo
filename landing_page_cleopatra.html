@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cléopâtre - Landing Page</title>
+  <!-- Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+  <style>
+    body {
+      margin: 0;
+      background: #000;
+      color: #fff;
+      font-family: 'Poppins', sans-serif;
+      line-height: 1.6;
+    }
+    h1, h2, h3, h4, h5 {
+      font-family: 'Montserrat', sans-serif;
+    }
+    section {
+      padding: 3em 1em;
+      max-width: 1000px;
+      margin: auto;
+    }
+    .hero {
+      text-align: center;
+      padding: 4em 1em;
+    }
+    .hero h1 {
+      font-size: 2.8em;
+      font-weight: 700;
+      color: #fff;
+    }
+    .hero span {
+      color: #ffc800;
+    }
+    .subtext {
+      text-align: center;
+      font-size: 1.6em;
+      margin-top: 0.5em;
+    }
+    .btn {
+      display: inline-block;
+      margin: 1em auto;
+      padding: 16px 24px;
+      font-size: 1.4em;
+      font-weight: 600;
+      background: #FFFF00;
+      color: #000;
+      border-radius: 6px;
+      text-decoration: none;
+      text-transform: uppercase;
+      box-shadow: 0 0 10px #F3C41F;
+    }
+    .pulse {
+      animation: pulse 1s infinite;
+    }
+    @keyframes pulse {
+      0% { transform: scale(1); }
+      50% { transform: scale(1.05); }
+      100% { transform: scale(1); }
+    }
+    .image-center img {
+      max-width: 100%;
+      height: auto;
+      border-radius: 8px;
+    }
+    .dark-section {
+      background: #111;
+      padding: 4em 1em;
+    }
+    .columns {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+      gap: 2em;
+      align-items: start;
+    }
+    .columns img {
+      width: 100%;
+      border: 8px solid #fff;
+    }
+    ul li {
+      margin: 0.5em 0;
+    }
+    @media(max-width: 768px){
+      .hero h1 { font-size: 1.7em; }
+      .subtext { font-size: 1.2em; }
+      .btn { font-size: 1.2em; padding: 12px 18px; }
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Hero Section -->
+  <section class="hero">
+    <h1>Vous voulez récupérer votre ex ? <span>Activez le pouvoir caché de Cléopâtre</span> et faites-le supplier pour revenir vers vous en moins de <span>7 jours !</span></h1>
+    <p class="subtext"><span>Lisez ce vieux journal de Cléopâtre et voici ce qui va se passer...</span></p>
+  </section>
+
+  <!-- Image and Story -->
+  <section>
+    <div class="image-center">
+      <img src="http://fulanodasilva.online/wp-content/uploads/2024/10/rainha.jpg" alt="Cléopâtre">
+    </div>
+    <div>
+      <p>Avez-vous déjà ressenti que, quoi que vous fassiez, vous ne pouvez pas arrêter de penser à votre ex ? ...</p>
+      <p><strong>Un secret millénaire, perdu pendant des siècles...</strong></p>
+      <p>Récemment, des archéologues ont fait une découverte incroyable en Égypte : ...</p>
+      <a href="#preco" class="btn pulse">JE SOUHAITE AVOIR ACCÈS</a>
+    </div>
+  </section>
+
+  <!-- Dark Section with Two Columns -->
+  <section class="dark-section">
+    <h2>― Les techniques secrètes utilisées par les femmes les plus séduisantes du monde :</h2>
+    <div class="columns">
+      <div>
+        <img src="http://fulanodasilva.online/wp-content/uploads/2024/10/marilyn-monroe-suicicc81dio-ou-assassinato__home-1020x600-1.webp" alt="Marilyn Monroe">
+        <p>Connue comme une icône de la séduction, Marilyn Monroe a séduit le président John Kennedy.</p>
+      </div>
+      <div>
+        <img src="http://fulanodasilva.online/wp-content/uploads/2024/10/ava-gardner_a30957_voyRXBO.webp" alt="Ava Gardner">
+        <p>Ava Gardner a envoûté des hommes comme Frank Sinatra, qui, même après avoir été abandonné, ne l'a jamais oubliée.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Learning Section -->
+  <section style="background:#0E0D0D;">
+    <h2 style="text-align:center;">Ce que vous allez apprendre :</h2>
+    <ul>
+      <li>Les techniques que Cléopâtre et d'autres femmes utilisaient</li>
+      <li>Faire revenir votre ex en moins de 7 jours</li>
+      <li>Élever votre estime de soi</li>
+      <li>Être beaucoup plus attirante</li>
+      <li>Séduire qui vous voulez</li>
+      <li>Flirter de manière intelligente</li>
+    </ul>
+    <h3 style="text-align:center;">Et bien plus encore...</h3>
+  </section>
+
+  <!-- Bonus Section -->
+  <section style="background:#111;">
+    <h2 style="text-align:center;">Aujourd'hui, vous allez encore recevoir quelques <span style="color:#ffc800">bonus exclusifs</span></h2>
+    <p style="text-align:center; font-size:1.5em;">E-book Armes de la Séduction</p>
+    <p style="text-align:center; color:#ff0000; font-size:1.8em;">De <del>47,00 €</del> à 0,00 €</p>
+    <div class="image-center">
+      <img src="http://fulanodasilva.online/wp-content/uploads/2024/10/La-psychologie-secrete-de-la-seduction.png" alt="Ebook">
+    </div>
+    <a href="#preco" class="btn pulse">JE VEUX TRANSFORMER MA VIE</a>
+  </section>
+
+  <!-- Footer Call to Action -->
+  <section style="background:#080808; text-align:center;">
+    <a href="#preco" class="btn pulse">JE VEUX TRANSFORMER MA VIE</a>
+  </section>
+
+</body>
+</html>
